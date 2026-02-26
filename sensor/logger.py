@@ -4,6 +4,7 @@ import sys
 
 from datetime import datetime
 
+<<<<<<< HEAD
 # 1. Generate timestamp in the format: MM_DD_YYYY_HH_MM_SS
 # This matches your request: 01_12_2026_11_11_39
 LOG_FILE_NAME = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
@@ -38,6 +39,10 @@ logging.basicConfig(
 logging.getLogger().info("Logger initialized")
 '''
 '''
+=======
+
+
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 
 logs_path=os.path.join(os.getcwd(),"logs",LOG_FILE)
@@ -54,7 +59,11 @@ format = "[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
 level= logging.INFO,
 )
 
+<<<<<<< HEAD
 '''
+=======
+
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80
 
 
 

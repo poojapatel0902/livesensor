@@ -70,6 +70,7 @@ class DataValidationConfig:
         )
 
 
+<<<<<<< HEAD
 class DataTransformationConfig:
     def __init__(self,training_pipeline_config:TrainingPipelineConfig):
 
@@ -144,3 +145,9 @@ class ModelPusherConfig:
             training_pipeline.SAVED_MODEL_DIR,
             f"{timestamp}",
             training_pipeline.MODEL_FILE_NAME)
+=======
+
+   
+
+
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80

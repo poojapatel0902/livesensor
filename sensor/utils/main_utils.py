@@ -5,7 +5,10 @@ import os
 import dill
 import sys
 from sensor.exception import SensorException
+<<<<<<< HEAD
 from sensor.logger import logging
+=======
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80
 
 
 def read_yaml_file(file_path:str)->dict:
@@ -32,6 +35,7 @@ def write_yaml_file(file_path: str, content: object, replace: bool = False) -> N
     except Exception as e:
         raise SensorException(e, sys)
 
+<<<<<<< HEAD
 def save_numpy_array_data(file_path:str,array:np.array):
     """
     save numpy array data to file
@@ -80,3 +84,5 @@ def load_object(file_path: str, ) -> object:
 
 
 
+=======
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80

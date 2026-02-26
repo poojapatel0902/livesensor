@@ -337,9 +337,12 @@ drop_columns:
   - cr_000
   - bo_000
   - bn_000
+<<<<<<< HEAD
 input_features:
   - air_temperature
   - process_temperature
   - rotational_speed
   - torque
   - tool_wear
+=======
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80

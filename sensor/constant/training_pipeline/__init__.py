@@ -5,8 +5,11 @@ PIPELINE_NAME = "sensor"
 ARTIFACT_DIR = "artifact"
 FILE_NAME = "sensor.csv"
 
+<<<<<<< HEAD
 SAVED_MODEL_DIR =os.path.join("saved_models")
 
+=======
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80
 
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
@@ -44,6 +47,7 @@ DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
 
 
 
+<<<<<<< HEAD
 """
 Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
 """
@@ -76,3 +80,10 @@ MODEL_EVALUATION_REPORT_NAME= "report.yaml"
 MODEL_PUSHER_DIR_NAME = "model_pusher"
 
 MODEL_PUSHER_SAVED_MODEL_DIR = SAVED_MODEL_DIR
+=======
+
+
+
+
+
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80

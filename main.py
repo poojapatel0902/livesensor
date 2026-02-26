@@ -2,6 +2,7 @@ from sensor.configuration.mongo_db_connection import MongoDBClient
 from sensor.exception import SensorException
 import os , sys
 from sensor.logger import logging
+<<<<<<< HEAD
 
 import uvicorn
 from sensor.pipeline.training_pipeline import TrainPipeline
@@ -152,10 +153,24 @@ def main():
     except Exception as e:
         print(e)
         logging.exception(e)
+=======
+#from  sensor.utils import dump_csv_file_to_mongodb_collecton
+#from sensor.entity.config_entity  import TrainingPipelineConfig,DataIngestionConfig
+
+from sensor.pipeline.training_pipeline import TrainPipeline
+
+# def test_exception():
+#     try:
+#         logging.info("ki yaha p bhaiaa ek error ayegi diveision by zero wali error ")
+#         a=1/0
+#     except Exception as e:
+#        raise SensorException(e,sys) 
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80
 
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     try:
         # This writes the first log line. If this fails, your logs will be empty.
         logging.info("Main started") 
@@ -168,12 +183,42 @@ if __name__ == "__main__":
         logging.exception(e)
     
     #uvicorn.run(app, host="0.0.0.0", port=8080)
+=======
+
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80
     # file_path="/Users/myhome/Downloads/sensorlive/aps_failure_training_set1.csv"
     # database_name="ineuron"
     # collection_name ="sensor"
     # dump_csv_file_to_mongodb_collection(file_path,database_name,collection_name)
+<<<<<<< HEAD
     #app_run(app ,host=APP_HOST,port=APP_PORT)
     
+=======
+
+    training_pipeline = TrainPipeline()
+    training_pipeline.run_pipeline()
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80
 
     # try:
     #     test_exception()

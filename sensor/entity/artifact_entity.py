@@ -18,6 +18,7 @@ class DataValidationArtifact:
     invalid_test_file_path: str
     drift_report_file_path: str
 
+<<<<<<< HEAD
 @dataclass
 class DataTransformationArtifact:
     transformed_object_file_path: str
@@ -52,3 +53,8 @@ class ModelEvaluationArtifact:
 class ModelPusherArtifact:
     saved_model_path:str   
     model_file_path:str
+=======
+
+    
+    
+>>>>>>> 3d86508f95b2fa2e912653e71d170582ed447b80
